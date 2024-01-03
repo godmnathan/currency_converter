@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.currency_converter.currency_converter.CurrencyConverterApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.022 s -- in com.currency_converter.currency_converter.CurrencyConverterApplicationTests

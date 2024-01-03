@@ -1,0 +1,6 @@
+com\currency_converter\currency_converter\AppConfig.class
+com\currency_converter\currency_converter\Controllers\CurrencyController.class
+com\currency_converter\currency_converter\Classes\CurrencyConversionService.class
+com\currency_converter\currency_converter\WebMvcConfig.class
+com\currency_converter\currency_converter\CurrencyConverterApplication.class
+com\currency_converter\currency_converter\REST\ExchangeRateResponse.class
