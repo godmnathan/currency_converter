@@ -1,0 +1,10 @@
+version: '3'
+services:
+  angular-app:
+    image: currency_converter_frontend
+    ports:
+      - "80:80"
+  spring-boot-backend:
+    image: currency_converter_backend
+    ports:
+      - "8080:8080"
