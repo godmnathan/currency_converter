@@ -1,0 +1,20 @@
+<div>
+    <div>
+        <form [formGroup]="conversionForm" (ngSubmit)="convertCurrency()">
+          <label for="fromCurrency">From Currency:</label>
+          <input id="fromCurrency" formControlName="fromCurrency">
+        
+          <label for="toCurrency">To Currency:</label>
+          <input id="toCurrency" formControlName="toCurrency">
+        
+          <label for="amount">Amount:</label>
+          <input id="amount" formControlName="amount" type="number">
+        
+          <button type="submit">Convert</button>
+        </form>
+    </div>
+    
+    <div *ngIf="currencyResponse">
+      <p>Conversion result: {{ currencyResponse }}</p>
+    </div>
+</div>
